@@ -34,7 +34,6 @@ const App: React.FC = () => {
   const [isClientIdModalOpen, setIsClientIdModalOpen] = useState(false);
   
   const [currentLoadingMessage, setCurrentLoadingMessage] = useState(loadingMessages[0]);
-  const [isDevMode, setIsDevMode] = useState(() => localStorage.getItem('isDevMode') === 'true');
 
   const drawing = useDrawing();
 
@@ -102,15 +101,6 @@ const App: React.FC = () => {
     setIsLoading(false);
     setDrawingMode(null);
     drawing.clearCanvas();
-  };
-  
-  const toggleDevMode = () => {
-    setIsDevMode(prev => {
-        const newMode = !prev;
-        localStorage.setItem('isDevMode', String(newMode));
-        handleLogout();
-        return newMode;
-    });
   };
 
   const handleLoadTutorial = useCallback(async (subject: ManifestSubject, customization: ManifestCustomization) => {
@@ -182,17 +172,6 @@ const App: React.FC = () => {
                     onLogout={handleLogout} 
                     googleClientId={googleClientId}
                     onConfigure={() => setIsClientIdModalOpen(true)}
-                    isDevMode={isDevMode}
-                />
-            </div>
-            <div className="flex items-center gap-2 text-xs text-gray-600 bg-gray-200/50 p-1 rounded-md">
-                <label htmlFor="devModeToggle" className="cursor-pointer select-none">Modo Desarrollador</label>
-                <input 
-                    type="checkbox" 
-                    id="devModeToggle"
-                    checked={isDevMode}
-                    onChange={toggleDevMode}
-                    className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500 cursor-pointer"
                 />
             </div>
         </div>

@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import type { UserProfile } from '../types';
 
@@ -13,10 +14,9 @@ interface AuthProps {
   onLogout: () => void;
   googleClientId: string | null;
   onConfigure: () => void;
-  isDevMode?: boolean;
 }
 
-export const Auth: React.FC<AuthProps> = ({ user, onLogin, onLogout, googleClientId, onConfigure, isDevMode }) => {
+export const Auth: React.FC<AuthProps> = ({ user, onLogin, onLogout, googleClientId, onConfigure }) => {
   const signInDiv = useRef<HTMLDivElement>(null);
 
   const handleCredentialResponse = (response: any) => {
@@ -51,16 +51,8 @@ export const Auth: React.FC<AuthProps> = ({ user, onLogin, onLogout, googleClien
     onLogout();
   };
 
-  const handleMockLogin = () => {
-    onLogin({
-        name: 'Sophie (Dev)',
-        email: 'sophie.dev@example.com',
-        picture: 'https://api.dicebear.com/8.x/bottts/svg?seed=Sophie',
-    });
-  };
-
   useEffect(() => {
-    if (!googleClientId || isDevMode || user) {
+    if (!googleClientId || user) {
       return;
     }
 
@@ -81,7 +73,7 @@ export const Auth: React.FC<AuthProps> = ({ user, onLogin, onLogout, googleClien
          });
       }
     }
-  }, [user, onLogin, googleClientId, isDevMode]);
+  }, [user, onLogin, googleClientId]);
 
   if (user) {
     return (
@@ -98,17 +90,6 @@ export const Auth: React.FC<AuthProps> = ({ user, onLogin, onLogout, googleClien
           Salir
         </button>
       </div>
-    );
-  }
-
-  if (isDevMode) {
-    return (
-      <button 
-          onClick={handleMockLogin}
-          className="bg-purple-500 text-white font-bold text-sm px-4 py-2 rounded-lg shadow-md hover:bg-purple-600 transition-colors"
-      >
-          Login (Dev)
-      </button>
     );
   }
 
