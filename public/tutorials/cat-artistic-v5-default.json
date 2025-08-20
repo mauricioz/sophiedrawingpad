@@ -1,0 +1,102 @@
+
+{
+  "version": "1.1",
+  "title": "Gato (Pulido)",
+  "locale": "es-AR",
+  "ageRange": "5-9",
+  "difficulty": 4,
+  "tags": ["animal", "cuerpo", "gato", "pulido"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza Pulida",
+      "instruction": "¡Última versión, vamos a pulirlo! Empecemos con la cabeza, que ya nos queda genial: grande y con forma de gota.",
+      "hint": "Concéntrate en hacer la forma suave y simétrica.",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C184.9,150 158.3,205.8 178.4,249.2 C198.5,292.6 301.5,292.6 321.6,249.2 C341.7,205.8 315.1,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cuerpo Fluido",
+      "instruction": "Ahora, conectamos el cuerpo de forma fluida desde la cabeza para que se vea como una sola pieza.",
+      "hint": "Sin líneas que se crucen para un look más limpio.",
+      "newGuides": [
+        { "shape": "path", "d": "M210,255 C190,300 200,350 250,350 C300,350 310,300 290,255" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Orejas Perfectas",
+      "instruction": "¡Las orejas! Mantenemos nuestro diseño de curvas suaves con el detalle interior. ¡Se ven fantásticas!",
+      "hint": "Recuerda la pequeña curva interior.",
+      "newGuides": [
+        { "shape": "path", "d": "M214.3,165.7 C192.6,128.8 158.6,146.4 179.4,180.5" },
+        { "shape": "path", "d": "M208.7,163.1 C196,145.5 183.7,156.4 186.7,174.5" },
+        { "shape": "path", "d": "M285.7,165.7 C307.4,128.8 341.4,146.4 320.6,180.5" },
+        { "shape": "path", "d": "M291.3,163.1 C304,145.5 316.3,156.4 313.3,174.5" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Patas Delanteras Definidas",
+      "instruction": "¡Atención a las patitas! Vamos a hacer las de adelante un poco más grandes y definidas.",
+      "hint": "Hazlas un poco más altas y notorias.",
+      "newGuides": [
+        { "shape": "path", "d": "M225,348 C225,365 240,365 240,348" },
+        { "shape": "path", "d": "M260,348 C260,365 275,365 275,348" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "¡Cuatro Patas!",
+      "instruction": "¡Un gatito tiene cuatro patas! Agreguemos las dos de atrás, asomando por los costados del cuerpo.",
+      "hint": "Son dos pequeñas curvas a los lados.",
+      "newGuides": [
+        { "shape": "path", "d": "M205,335 C195,345 205,355 215,350" },
+        { "shape": "path", "d": "M295,335 C305,345 295,355 285,350" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Cola Gatuna",
+      "instruction": "¡La cola, ahora sí! Dibujemos una curva suave y natural, menos enroscada. ¡Mucho más gatuna!",
+      "hint": "Una curva más simple y elegante.",
+      "newGuides": [
+        { "shape": "path", "d": "M290,320 C330,320 340,280 330,250" }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Carita Conocida",
+      "instruction": "La carita que ya conocemos: dos ojitos curiosos, una nariz pequeña y una boquita sonriente.",
+      "hint": "Mantenla centrada y pequeña.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M270,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M250,230 L247,235 L253,235Z" },
+        { "shape": "path", "d": "M245,240 C248,245 252,245 255,240" }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "Bigotes en Mejillas",
+      "instruction": "¡Y el toque maestro! Movemos los bigotes más hacia afuera, en sus mejillas. ¡Ahora sí! ¡Un gatito perfecto!",
+      "hint": "Los bigotes salen de las mejillas, no de la boca.",
+      "newGuides": [
+        { "shape": "path", "d": "M225,235 L190,230" },
+        { "shape": "path", "d": "M225,240 L190,240" },
+        { "shape": "path", "d": "M275,235 L310,230" },
+        { "shape": "path", "d": "M275,240 L310,240" }
+      ]
+    }
+  ]
+}

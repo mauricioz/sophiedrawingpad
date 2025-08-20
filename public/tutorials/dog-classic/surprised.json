@@ -1,0 +1,72 @@
+
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza de '¡Guau!'",
+      "instruction": "¡Guau! ¿Qué pasó? Dibujemos la cabeza de un perrito muy sorprendido.",
+      "hint": "La misma cabeza ancha de siempre, ¡la sorpresa vendrá después!",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C180,150 150,200 160,270 C170,340 330,340 340,270 C350,200 320,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Levantadas",
+      "instruction": "¡Por la sorpresa, sus orejas se levantaron un poquito! Dibujémoslas hacia los lados.",
+      "hint": "En lugar de caer rectas, se abren hacia afuera.",
+      "newGuides": [
+        { "shape": "path", "d": "M150,210 C110,220 100,310 160,300Z" },
+        { "shape": "path", "d": "M350,210 C390,220 400,310 340,300Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Cuerpo Alerta",
+      "instruction": "Su cuerpo también está alerta. Dibújalo sentado como antes.",
+      "hint": "Mantén la misma forma de cuerpo que en el perro normal.",
+      "newGuides": [
+        { "shape": "path", "d": "M200,320 C180,380 250,420 250,420 C250,420 320,380 300,320" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Patitas y Cola",
+      "instruction": "Ahora sus patitas y su cola. La cola está levantada por la sorpresa.",
+      "hint": "Una curva hacia arriba para la cola.",
+      "newGuides": [
+        { "shape": "path", "d": "M200,400 C190,420 230,420 220,400" },
+        { "shape": "path", "d": "M280,400 C270,420 310,420 300,400" },
+        { "shape": "path", "d": "M300,350 C350,340 360,380 310,390" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Ojos como Platos",
+      "instruction": "¡Sus ojos están bien abiertos! Dibuja dos círculos grandes para mostrar su sorpresa.",
+      "hint": "Hazlos bien redondos y grandes.",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,250 a 15,15 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 280,250 a 15,15 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Boca Abierta",
+      "instruction": "Ahora, la nariz y una boquita abierta en forma de 'o', ¡como cuando decimos 'Oh!'",
+      "hint": "Un pequeño círculo u óvalo debajo de la nariz.",
+      "newGuides": [
+        { "shape": "path", "d": "M250,285 C235,280 265,280 250,285 C240,305 260,305 250,285Z" },
+        { "shape": "path", "d": "M 250,315 a 15,10 0 1,1 0.01,0" }
+      ]
+    }
+  ]
+}

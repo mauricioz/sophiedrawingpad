@@ -1,0 +1,73 @@
+
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza de Perrito",
+      "instruction": "¡Vamos a dibujar un perrito nuevo! Empecemos con su cabeza. Hazla ancha abajo, ¡como si tuviera mofletes!",
+      "hint": "Imagina una pera al revés.",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C180,150 150,200 160,270 C170,340 330,340 340,270 C350,200 320,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Caídas",
+      "instruction": "¡Genial! Ahora, dos orejas largas y caídas a los lados. ¡Son la clave para que parezca un perrito!",
+      "hint": "Dibuja dos formas largas y redondeadas que cuelguen de los lados de la cabeza.",
+      "newGuides": [
+        { "shape": "path", "d": "M165,220 C120,230 110,330 170,320Z" },
+        { "shape": "path", "d": "M335,220 C380,230 390,330 330,320Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Cuerpo Sentado",
+      "instruction": "¡Perfecto! Dibujemos su cuerpo. Como está sentado, haz una forma de gota debajo de la cabeza.",
+      "hint": "Esto hará que parezca que está sentado y esperando para jugar.",
+      "newGuides": [
+        { "shape": "path", "d": "M200,320 C180,380 250,420 250,420 C250,420 320,380 300,320" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Patitas y Cola",
+      "instruction": "¡Qué bien! Agreguemos sus patitas delanteras y una cola feliz que se asome por un costado.",
+      "hint": "Dos pequeños óvalos para las patas y una curva para la colita.",
+      "newGuides": [
+        { "shape": "path", "d": "M200,400 C190,420 230,420 220,400" },
+        { "shape": "path", "d": "M280,400 C270,420 310,420 300,400" },
+        { "shape": "path", "d": "M300,350 C350,340 360,380 310,390" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Carita Amistosa",
+      "instruction": "¡Vamos a darle vida! Dibuja dos ojitos redondos y una nariz grande y húmeda.",
+      "hint": "La nariz de un perro es grande y a menudo tiene forma de triángulo redondeado.",
+      "newGuides": [
+        { "shape": "path", "d": "M220,250 a 10,10 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M280,250 a 10,10 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M250,285 C235,280 265,280 250,285 C240,305 260,305 250,285Z" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Sonrisa de Amigo",
+      "instruction": "¡El toque final! Una gran sonrisa debajo de su nariz. ¡Ahora sí, un amigo listo para jugar!",
+      "hint": "Dos curvas suaves que salgan de la nariz, ¡como una gran W!",
+      "newGuides": [
+        { "shape": "path", "d": "M250,300 C230,320 210,315 210,305" },
+        { "shape": "path", "d": "M250,300 C270,320 290,315 290,305" }
+      ]
+    }
+  ]
+}

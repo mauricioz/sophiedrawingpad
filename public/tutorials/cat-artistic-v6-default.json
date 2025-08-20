@@ -1,0 +1,114 @@
+
+{
+  "version": "1.1",
+  "title": "Gato (Refinado Final)",
+  "locale": "es-AR",
+  "ageRange": "6-10",
+  "difficulty": 5,
+  "tags": ["animal", "cuerpo", "gato", "final"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza Final",
+      "instruction": "¡Esta es la versión final! Comencemos con la cabeza en forma de gota que ya dominamos. ¡Es la base de lo adorable!",
+      "hint": "La práctica hace al maestro. ¡Esta te saldrá genial!",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C184.9,150 158.3,205.8 178.4,249.2 C198.5,292.6 301.5,292.6 321.6,249.2 C341.7,205.8 315.1,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Orgánicas",
+      "instruction": "¡Las orejas! Dibujemos nuestras curvas suaves y orgánicas con su detalle interior. ¡Se ven perfectas!",
+      "hint": "Estas orejas le dan un toque único.",
+      "newGuides": [
+        { "shape": "path", "d": "M214.3,165.7 C192.6,128.8 158.6,146.4 179.4,180.5" },
+        { "shape": "path", "d": "M208.7,163.1 C196,145.5 183.7,156.4 186.7,174.5" },
+        { "shape": "path", "d": "M285.7,165.7 C307.4,128.8 341.4,146.4 320.6,180.5" },
+        { "shape": "path", "d": "M291.3,163.1 C304,145.5 316.3,156.4 313.3,174.5" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Cuerpo Conectado",
+      "instruction": "Conectemos el cuerpo de forma fluida desde la cabeza. ¡Adiós a las líneas superpuestas!",
+      "hint": "Un solo trazo continuo se verá más profesional.",
+      "newGuides": [
+        { "shape": "path", "d": "M210,255 C190,300 200,350 250,350 C300,350 310,300 290,255" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Patas Traseras",
+      "instruction": "Ahora, las patitas traseras. Dos pequeñas curvas a los lados para que nuestro gatito se vea estable.",
+      "hint": "Dan la sensación de que el gato está sentado.",
+      "newGuides": [
+        { "shape": "path", "d": "M205,335 C195,345 205,355 215,350" },
+        { "shape": "path", "d": "M295,335 C305,345 295,355 285,350" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Patas Delanteras Anchas",
+      "instruction": "¡Mejoremos las patas delanteras! Dibújalas un poco más anchas y definidas. ¡Esto les dará más presencia!",
+      "hint": "Más grandes y fuertes.",
+      "newGuides": [
+        { "shape": "path", "d": "M220,348 C220,370 245,370 245,348" },
+        { "shape": "path", "d": "M255,348 C255,370 280,370 280,348" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Cola Elegante",
+      "instruction": "La cola, con su curva natural y elegante. ¡Un trazo simple que queda genial!",
+      "hint": "Una curva suave es todo lo que se necesita.",
+      "newGuides": [
+        { "shape": "path", "d": "M290,320 C330,320 340,280 330,250" }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Carita Detallada",
+      "instruction": "¡El detalle clave! Dibujemos los ojos y la nariz. Luego, la boca un poquito más abajo, separada de la nariz. ¡Verás qué diferencia!",
+      "hint": "Este pequeño espacio hace que la cara se vea más limpia.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M270,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M250,232 L247,237 L253,237Z" },
+        { "shape": "path", "d": "M245,242 C248,247 252,247 255,242" }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "Bigotes Curvos",
+      "instruction": "¡Bigotes con estilo! En lugar de líneas rectas, dibuja curvas suaves que salgan de sus mejillas. ¡Le da mucho más movimiento!",
+      "hint": "Las curvas hacen que el dibujo se sienta más vivo.",
+      "newGuides": [
+        { "shape": "path", "d": "M225,238 Q200,235 190,230" },
+        { "shape": "path", "d": "M225,243 Q200,243 190,245" },
+        { "shape": "path", "d": "M275,238 Q300,235 310,230" },
+        { "shape": "path", "d": "M275,243 Q300,243 310,245" }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "¡Dedos Adorables!",
+      "instruction": "¡El toque final que lo hace adorable! Dibuja dos pequeñas líneas curvas en cada patita delantera para simular los dedos. ¡Nuestro gato está listo y perfecto!",
+      "hint": "Son como pequeñas 'm' en la base de las patas.",
+      "newGuides": [
+        { "shape": "path", "d": "M228,365 C230,362 232,362 232,365" },
+        { "shape": "path", "d": "M235,365 C237,362 239,362 239,365" },
+        { "shape": "path", "d": "M261,365 C263,362 265,362 265,365" },
+        { "shape": "path", "d": "M268,365 C270,362 272,362 272,365" }
+      ]
+    }
+  ]
+}

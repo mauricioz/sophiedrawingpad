@@ -1,0 +1,142 @@
+
+{
+  "version": "1.0.0",
+  "subjects": [
+    {
+      "id": "cat-artistic-v6",
+      "name": "Gato (Refinado Final)",
+      "mode": "sophie",
+      "iconId": "ArtisticCatV6Icon",
+      "difficulty": 5,
+      "tags": ["animal", "final", "lindo"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "dog-artistic",
+      "name": "Perrito Juguetón",
+      "mode": "sophie",
+      "iconId": "ArtisticDogIcon",
+      "difficulty": 3,
+      "tags": ["animal", "lindo", "perro"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "fish-artistic",
+      "name": "Pez Elegante",
+      "mode": "sophie",
+      "iconId": "ArtisticFishIcon",
+      "difficulty": 2,
+      "tags": ["animal", "mar", "lindo"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "house-cozy",
+      "name": "Casita de Cuento",
+      "mode": "sophie",
+      "iconId": "CozyHouseIcon",
+      "difficulty": 3,
+      "tags": ["lindo", "casa", "cuento"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "car-cute",
+      "name": "Auto Clásico",
+      "mode": "sophie",
+      "iconId": "CuteCarIcon",
+      "difficulty": 2,
+      "tags": ["vehículo", "clásico", "lindo"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "smiley",
+      "name": "Carita",
+      "mode": "papi",
+      "iconId": "SmileyIcon",
+      "difficulty": 1,
+      "tags": ["simple", "rostro", "tierno"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-simple",
+      "name": "Gatito (Simple)",
+      "mode": "papi",
+      "iconId": "SimpleCatIcon",
+      "difficulty": 1,
+      "tags": ["animal", "tierno", "simple"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-classic",
+      "name": "Gato (Clásico)",
+      "mode": "papi",
+      "iconId": "CatIcon",
+      "difficulty": 2,
+      "tags": ["animal", "gato", "clásico"],
+      "customizations": [
+        { "id": "default", "name": "Normal" },
+        { "id": "happy", "name": "Feliz", "iconId": "HappyIcon" },
+        { "id": "sad", "name": "Triste", "iconId": "SadIcon" },
+        { "id": "surprised", "name": "Sorprendido", "iconId": "SurprisedIcon" }
+      ]
+    },
+    {
+      "id": "dog-classic",
+      "name": "Perro (Clásico)",
+      "mode": "papi",
+      "iconId": "DogIcon",
+      "difficulty": 2,
+      "tags": ["animal", "perro", "clásico"],
+      "customizations": [
+        { "id": "default", "name": "Normal" },
+        { "id": "happy", "name": "Feliz", "iconId": "HappyIcon" },
+        { "id": "sad", "name": "Triste", "iconId": "SadIcon" },
+        { "id": "surprised", "name": "Sorprendido", "iconId": "SurprisedIcon" }
+      ]
+    },
+    {
+      "id": "cat-artistic-v1",
+      "name": "Gato (Tierno)",
+      "mode": "papi",
+      "iconId": "ArtisticCatIcon",
+      "difficulty": 2,
+      "tags": ["animal", "cuerpo", "gato", "tierno"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-artistic-v2",
+      "name": "Gato (Nuevo y Mejorado)",
+      "mode": "papi",
+      "iconId": "ArtisticCatV2Icon",
+      "difficulty": 3,
+      "tags": ["animal", "cuerpo", "gato", "mejorado"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-artistic-v3",
+      "name": "Gato (Refinado)",
+      "mode": "papi",
+      "iconId": "ArtisticCatV3Icon",
+      "difficulty": 3,
+      "tags": ["animal", "cuerpo", "gato", "refinado"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-artistic-v4",
+      "name": "Gato (Casi Perfecto)",
+      "mode": "papi",
+      "iconId": "ArtisticCatV4Icon",
+      "difficulty": 4,
+      "tags": ["animal", "cuerpo", "gato", "avanzado"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    },
+    {
+      "id": "cat-artistic-v5",
+      "name": "Gato (Pulido)",
+      "mode": "papi",
+      "iconId": "ArtisticCatV5Icon",
+      "difficulty": 4,
+      "tags": ["animal", "cuerpo", "gato", "pulido"],
+      "customizations": [{ "id": "default", "name": "Estándar" }]
+    }
+  ]
+}

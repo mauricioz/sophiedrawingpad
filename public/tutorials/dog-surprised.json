@@ -1,0 +1,68 @@
+
+{
+  "version": "1.1",
+  "title": "¡Un Perrito Sorprendido!",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 2,
+  "tags": ["animal", "cara", "sorprendido", "perro"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cara de '¡Guau!'",
+      "instruction": "¡Guau! ¿Qué pasó? Dibujemos la cabeza de un perrito muy sorprendido.",
+      "hint": "La misma cabeza ovalada de siempre, ¡la sorpresa vendrá después!",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,150 C 170,150 140,200 140,260 C 140,330 180,380 250,380 C 320,380 360,330 360,260 C 360,200 330,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Levantadas",
+      "instruction": "Por la sorpresa, ¡sus orejas se levantaron un poquito! Dibujémoslas hacia los lados.",
+      "hint": "En lugar de caer rectas, se abren hacia afuera.",
+      "newGuides": [
+        { "shape": "path", "d": "M 130,210 C 100,230 110,300 150,290" },
+        { "shape": "path", "d": "M 370,210 C 400,230 390,300 350,290" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos como Platos",
+      "instruction": "¡Sus ojos están bien abiertos! Dibuja dos círculos grandes para mostrar su sorpresa.",
+      "hint": "Hazlos bien redondos y grandes.",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,250 a 15,15 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 280,250 a 15,15 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Boca Abierta",
+      "instruction": "Ahora, la nariz y una boquita abierta en forma de 'o', ¡como cuando decimos 'Oh!'",
+      "hint": "Un pequeño círculo u óvalo debajo de la nariz.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,290 C 235,285 265,285 250,290 C 240,310 260,310 250,290 Z" },
+        { "shape": "path", "d": "M 250,325 a 15,10 0 1,1 0.01,0" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Cejas de Sorpresa",
+      "instruction": "¡Excelente! Para mostrar más sorpresa, dibujemos un par de líneas cortas sobre sus ojos.",
+      "hint": "Como dos pequeñas cejas levantadas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 210,220 C 220,215 230,215 235,220" },
+        { "shape": "path", "d": "M 275,220 C 280,215 290,215 300,220" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+
+{
+  "version": "1.1",
+  "title": "Un Perrito Amistoso",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 2,
+  "tags": ["animal", "cara", "perro"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza de Perrito",
+      "instruction": "¡Vamos a dibujar un perrito! Empecemos con su cabeza, que es como un óvalo suave.",
+      "hint": "Hazla un poco más alta que ancha.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,150 C 170,150 140,200 140,260 C 140,330 180,380 250,380 C 320,380 360,330 360,260 C 360,200 330,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Largas",
+      "instruction": "¡Genial! Ahora, dos orejas largas y caídas a los lados de su cabeza.",
+      "hint": "Parecen dos gotas de agua largas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 145,230 C 110,250 120,320 160,310" },
+        { "shape": "path", "d": "M 355,230 C 390,250 380,320 340,310" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos Amistosos",
+      "instruction": "¡Perfecto! Dibujemos dos ojitos brillantes para que nos mire.",
+      "hint": "Dos pequeños círculos en el centro de la cara.",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,250 a 10,10 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 280,250 a 10,10 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Nariz Húmeda",
+      "instruction": "¡Qué bien! Ahora, una nariz grande y ovalada en el medio.",
+      "hint": "Como un triángulo redondeado al revés.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,290 C 235,285 265,285 250,290 C 240,310 260,310 250,290 Z" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Boca Amigable",
+      "instruction": "Y para terminar, una boquita amigable que sale de su nariz.",
+      "hint": "Son como dos pequeñas 'J' a cada lado de la nariz.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,305 C 230,325 210,320 210,310" },
+        { "shape": "path", "d": "M 250,305 C 270,325 290,320 290,310" }
+      ]
+    }
+  ]
+}

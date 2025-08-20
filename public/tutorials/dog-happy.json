@@ -1,0 +1,67 @@
+
+{
+  "version": "1.1",
+  "title": "¡Un Perrito Contento!",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 2,
+  "tags": ["animal", "cara", "feliz", "perro"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cara Contenta",
+      "instruction": "¡A dibujar! Hagamos un óvalo para la carita de nuestro perrito feliz.",
+      "hint": "Recuerda, un óvalo suave y amigable.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,150 C 170,150 140,200 140,260 C 140,330 180,380 250,380 C 320,380 360,330 360,260 C 360,200 330,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Juguetonas",
+      "instruction": "¡Muy bien! Ahora sus orejitas largas y caídas, como si estuviera escuchando algo divertido.",
+      "hint": "Dales un poco de movimiento con una curva suave.",
+      "newGuides": [
+        { "shape": "path", "d": "M 145,230 C 110,250 120,320 160,310" },
+        { "shape": "path", "d": "M 355,230 C 390,250 380,320 340,310" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos Felices",
+      "instruction": "Pongámosle unos ojitos alegres, como dos pequeñas sonrisas.",
+      "hint": "Como dos 'U' al revés, ¡ojos sonrientes!",
+      "newGuides": [
+        { "shape": "path", "d": "M 210,255 C 220,260 230,260 240,255" },
+        { "shape": "path", "d": "M 270,255 C 280,260 290,260 300,255" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Gran Sonrisa",
+      "instruction": "¡Qué lindo está quedando! Ahora su nariz y una gran sonrisa de lado a lado.",
+      "hint": "Dibuja una curva grande y abierta.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,290 C 235,285 265,285 250,290 C 240,310 260,310 250,290 Z" },
+        { "shape": "path", "d": "M 200,320 C 250,350 300,350 340,320" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "¡Lengua Afuera!",
+      "instruction": "¡Y lo más importante para un perrito feliz! ¡La lengua afuera! Dibuja una 'U' debajo de su sonrisa.",
+      "hint": "Una pequeña curva que cuelgue de la sonrisa.",
+      "newGuides": [
+        { "shape": "path", "d": "M 240,330 C 250,350 260,350 270,330 L 240,330 Z" }
+      ]
+    }
+  ]
+}

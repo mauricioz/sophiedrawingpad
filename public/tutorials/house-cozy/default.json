@@ -1,0 +1,74 @@
+
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Paredes Mágicas",
+      "instruction": "¡Vamos a dibujar una casita de cuento de hadas! Empecemos con las paredes, un poco torcidas para que se vea más mágica.",
+      "hint": "No te preocupes por las líneas rectas, ¡lo irregular es más bonito!",
+      "newGuides": [
+        { "shape": "path", "d": "M 120,250 L 380,260 L 370,450 L 130,450 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Techo Ondulado",
+      "instruction": "¡Genial! Ahora, un techo grande y ondulado, como si fuera de un pastel. ¡Que sobresalga por los lados!",
+      "hint": "Una gran curva suave por encima de las paredes.",
+      "newGuides": [
+        { "shape": "path", "d": "M 100,280 C 150,180 350,180 400,280 L 100,280" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Puerta de Corazón",
+      "instruction": "¡Toda casa mágica necesita una puerta especial! Dibujemos una puerta redonda con una ventanita en forma de corazón.",
+      "hint": "¡El corazón es el secreto de una casa feliz!",
+      "newGuides": [
+        { "shape": "path", "d": "M 280,455 L 280,360 C 280,320 340,320 340,360 L 340,455" },
+        { "shape": "path", "d": "M 310,370 C 300,360 320,360 310,370 C 310,380 320,385 310,395 C 300,385 310,380 310,370 Z" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Ventana Acogedora",
+      "instruction": "¡Qué bonita! Ahora, una ventana redonda y grande con cortinas, para que se vea muy acogedora.",
+      "hint": "Dibuja un círculo y dos pequeñas curvas adentro para las cortinas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 170,350 a 40,40 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 170,320 C 150,330 150,370 170,380" },
+        { "shape": "path", "d": "M 170,320 C 190,330 190,370 170,380" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Humo de Amor",
+      "instruction": "¡Casi está! Agreguemos una chimenea torcida. Y lo más importante: ¡está soltando humo en forma de corazón!",
+      "hint": "¡El amor calienta esta casita!",
+      "newGuides": [
+        { "shape": "path", "d": "M 150,220 L 150,180 L 180,180 L 180,230" },
+        { "shape": "path", "d": "M 165,170 C 155,160 175,160 165,170 C 165,180 175,185 165,195 C 155,185 165,180 165,170 Z" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Un Pequeño Amigo",
+      "instruction": "¡El toque final! Dibuja un caminito de piedras y un pequeño caracol que viene de visita. ¡Tu casita de cuento está viva!",
+      "hint": "Unas cuantas curvas para el camino y una espiral para el caracol.",
+      "newGuides": [
+        { "shape": "path", "d": "M 310,450 C 350,460 350,480 310,490" },
+        { "shape": "path", "d": "M 250,450 C 230,460 230,480 250,490" },
+        { "shape": "path", "d": "M 200,470 a 10,10 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 210,470 C 220,465 220,475 210,480" }
+      ]
+    }
+  ]
+}

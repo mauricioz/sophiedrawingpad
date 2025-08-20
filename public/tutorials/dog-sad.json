@@ -1,0 +1,67 @@
+
+{
+  "version": "1.1",
+  "title": "Un Perrito Apenado",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 2,
+  "tags": ["animal", "cara", "triste", "perro"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Carita Apenada",
+      "instruction": "Oh, parece que este perrito está triste. Dibujemos su carita ovalada para empezar.",
+      "hint": "Un óvalo suave será nuestra base.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,150 C 170,150 140,200 140,260 C 140,330 180,380 250,380 C 320,380 360,330 360,260 C 360,200 330,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Caídas",
+      "instruction": "Sus orejitas están caídas y sin fuerza. Dibujémoslas bien pegaditas a su cara.",
+      "hint": "Hazlas más rectas y menos curvas que las del perro feliz.",
+      "newGuides": [
+        { "shape": "path", "d": "M 145,240 C 130,260 140,330 170,320" },
+        { "shape": "path", "d": "M 355,240 C 370,260 360,330 330,320" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos Tristes",
+      "instruction": "Vamos a dibujar sus ojitos. Miremos cómo las esquinas de afuera apuntan un poquito hacia arriba.",
+      "hint": "Esto le da una expresión de preocupación.",
+      "newGuides": [
+        { "shape": "path", "d": "M 210,260 C 220,250 235,250 240,260" },
+        { "shape": "path", "d": "M 270,260 C 275,250 290,250 300,260" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Boquita Apenada",
+      "instruction": "Ahora, una nariz y una boquita triste, como una pequeña montaña al revés.",
+      "hint": "Una curva hacia abajo debajo de la nariz.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,290 C 235,285 265,285 250,290 C 240,310 260,310 250,290 Z" },
+        { "shape": "path", "d": "M 220,330 C 250,320 280,320 310,330" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Una Lagrimita",
+      "instruction": "¡Pobrecito! Vamos a dibujarle una lagrimita para consolarlo. ¡Tu dibujo le alegrará!",
+      "hint": "Una pequeña gota saliendo de uno de sus ojos.",
+      "newGuides": [
+        { "shape": "path", "d": "M 295,265 C 290,280 300,280 295,265 Z" }
+      ]
+    }
+  ]
+}

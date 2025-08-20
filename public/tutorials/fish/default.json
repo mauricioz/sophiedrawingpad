@@ -1,0 +1,72 @@
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cuerpo",
+      "instruction": "Dibuja un óvalo grande de costado en el centro.",
+      "hint": "Como un huevo horizontal.",
+      "checkpoint": "¿Tu cuerpo se ve ovalado?",
+      "newGuides": [
+        { "shape": "path", "d": "M200,250 C200,150 300,150 300,250 C300,350 200,350 200,250 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cola",
+      "instruction": "Agrega una cola triangular atrás del cuerpo.",
+      "hint": "Hazla como una V suave.",
+      "checkpoint": "¿Tu colita se abre detrás del óvalo?",
+      "newGuides": [
+        { "shape": "path", "d": "M300,250 L340,220 L340,280 Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Aleta superior",
+      "instruction": "Dibuja una aletita arriba del cuerpo.",
+      "hint": "Hazla como un triángulo curvo.",
+      "checkpoint": "¿La aleta está bien arriba del óvalo?",
+      "newGuides": [
+        { "shape": "path", "d": "M240,200 L260,160 L280,200 Z" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Aleta inferior",
+      "instruction": "Haz otra aletita pequeña abajo.",
+      "hint": "Debe verse parecida a la de arriba pero hacia abajo.",
+      "checkpoint": "¿Tus dos aletas están alineadas?",
+      "newGuides": [
+        { "shape": "path", "d": "M240,300 L260,340 L280,300 Z" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Ojo",
+      "instruction": "Ponle un ojito redondo en el frente.",
+      "hint": "Pequeño, como un puntito.",
+      "checkpoint": "¿El ojito está en la parte delantera?",
+      "newGuides": [
+        { "shape": "path", "d": "M220,250 C220,245 225,245 225,250 Z" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Boca",
+      "instruction": "Haz una pequeña curva para la boca.",
+      "hint": "Debe parecer una sonrisa de pez.",
+      "checkpoint": "¿Tu pez sonríe?",
+      "newGuides": [
+        { "shape": "path", "d": "M210,270 C215,275 225,275 230,270" }
+      ]
+    }
+  ]
+}

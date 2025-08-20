@@ -1,0 +1,50 @@
+
+{
+  "version": "1.1",
+  "title": "Carita sonriente",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 1,
+  "tags": ["simple", "rostro", "tierno"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Carita",
+      "instruction": "Dibuja un círculo grande en el centro.",
+      "hint": "Hazlo redondito, como un sol.",
+      "checkpoint": "¿Tu círculo ocupa la parte central del papel?",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C150,150 150,350 250,350 C350,350 350,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Ojitos",
+      "instruction": "Agrega dos pequeños círculos dentro de la cara.",
+      "hint": "Hazlos como puntitos simpáticos.",
+      "checkpoint": "¿Tus ojitos están bien separados en la parte superior?",
+      "newGuides": [
+        { "shape": "path", "d": "M220,230 C220,225 225,225 225,230 Z" },
+        { "shape": "path", "d": "M275,230 C275,225 280,225 280,230 Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Sonrisa",
+      "instruction": "Dibuja una curva hacia arriba debajo de los ojos.",
+      "hint": "Que se vea como una banana feliz.",
+      "checkpoint": "¿Tu curva se ve alegre?",
+      "newGuides": [
+        { "shape": "path", "d": "M210,270 C250,300 290,270 290,270" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cuerpo Principal",
+      "instruction": "¡Vamos a dibujar un auto aventurero! Empecemos con la parte de abajo de su cuerpo, como una banana sonriente.",
+      "hint": "Una línea curva larga y suave será nuestra base.",
+      "newGuides": [
+        { "shape": "path", "d": "M 100,350 C 150,320 350,320 400,350" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "La Cabina",
+      "instruction": "¡Genial! Ahora, dibujemos la cabina donde va el conductor. Haz una gran cúpula redonda encima de la base.",
+      "hint": "Como una burbuja grande en la parte de atrás del auto.",
+      "newGuides": [
+        { "shape": "path", "d": "M 200,335 C 180,250 380,250 380,335" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Las Ruedas",
+      "instruction": "¡Perfecto! Necesitamos ruedas para correr. Dibuja dos círculos grandes y fuertes. Uno adelante y otro atrás.",
+      "hint": "¡Asegúrate de que sean bien redondas para que ruede rápido!",
+      "newGuides": [
+        { "shape": "path", "d": "M 140,350 a 40,40 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 340,350 a 40,40 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Luces y Paragolpes",
+      "instruction": "¡Se ve genial! Agreguemos un faro adelante para alumbrar el camino y un paragolpes.",
+      "hint": "Un círculo para la luz y una curva para el paragolpes.",
+      "newGuides": [
+        { "shape": "path", "d": "M 100,310 a 15,15 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 80,350 C 90,340 100,340 100,350" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "La Ventana",
+      "instruction": "¡No nos olvidemos de la ventana! Dibuja una ventana grande en la cabina para poder mirar hacia afuera.",
+      "hint": "Sigue la forma de la cabina, pero por adentro.",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,325 C 210,265 360,265 360,325" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "¡Humo y Aventura!",
+      "instruction": "¡El toque final! Dibuja una pequeña nube de humo saliendo de un escape en la parte de atrás. ¡Nuestro auto está listo para la aventura!",
+      "hint": "Un pequeño tubo y tres circulitos para el humo.",
+      "newGuides": [
+        { "shape": "path", "d": "M 400,320 L 420,320" },
+        { "shape": "path", "d": "M 425,315 a 5,5 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 435,320 a 5,5 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 430,325 a 5,5 0 1,1 -0.01,0" }
+      ]
+    }
+  ]
+}

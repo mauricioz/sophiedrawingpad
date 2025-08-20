@@ -1,0 +1,73 @@
+
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cuerpo de Gota",
+      "instruction": "¡Vamos a dibujar un pececito mágico! Su cuerpo tiene forma de gota, gordito en el frente y delgadito atrás.",
+      "hint": "Imagina una gota de agua acostada.",
+      "newGuides": [
+        { "shape": "path", "d": "M 150,250 C 150,180 300,180 350,250 C 300,320 150,320 150,250 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cola Elegante",
+      "instruction": "¡Genial! Ahora, una cola grande y elegante que parezca que se mueve en el agua.",
+      "hint": "Como un abanico abierto en la parte de atrás.",
+      "newGuides": [
+        { "shape": "path", "d": "M 340,250 C 420,200 420,300 340,250" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Aletas Onduladas",
+      "instruction": "¡Perfecto! Agreguemos dos aletas, una arriba y una abajo. ¡Hazlas con curvas suaves, como si fueran olas!",
+      "hint": "Las curvas le dan sensación de movimiento.",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,195 C 250,170 300,180 320,210" },
+        { "shape": "path", "d": "M 220,305 C 250,330 300,320 320,290" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Ojo Grande y Boca",
+      "instruction": "¡Es hora de darle vida! Dibuja un ojo bien grande y expresivo, y una boquita pequeña y redonda.",
+      "hint": "Un ojo grande lo hace ver muy curioso y tierno.",
+      "newGuides": [
+        { "shape": "path", "d": "M 200,240 a 25,25 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 210,245 a 10,10 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 170,280 a 5,5 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "¡Burbujas!",
+      "instruction": "¡Un pececito feliz hace burbujas! Dibuja unos cuantos círculos pequeños saliendo de su boca.",
+      "hint": "¡De diferentes tamaños para que sea más divertido!",
+      "newGuides": [
+        { "shape": "path", "d": "M 160,270 a 8,8 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 145,250 a 5,5 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 155,230 a 3,3 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Un Hogar Marino",
+      "instruction": "¡El toque final! Dibujemos unas algas marinas abajo para que nuestro pez no se sienta solo. ¡Ahora tiene un hogar!",
+      "hint": "Unas líneas largas y curvas que crecen desde abajo.",
+      "newGuides": [
+        { "shape": "path", "d": "M 100,400 C 120,350 80,300 120,250" },
+        { "shape": "path", "d": "M 130,400 C 150,360 120,320 150,280" }
+      ]
+    }
+  ]
+}

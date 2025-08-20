@@ -1,0 +1,83 @@
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza Adorable",
+      "instruction": "¡Vamos a dibujar un gatito adorable! Primero, haz una cabeza grande y redondita. ¡Será la parte más tierna!",
+      "hint": "Más ancha en la parte de abajo, como una mejilla gordita.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,150 C 180,150 160,250 250,260 C 340,250 320,150 250,150 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cuerpo de Pera",
+      "instruction": "¡Genial! Ahora, un cuerpo pequeñito justo debajo de su cabeza. Como una perita.",
+      "hint": "Pequeño y compacto para que la cabeza destaque.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,255 C 220,260 210,340 250,340 C 290,340 280,260 250,255 Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Orejas Suaves",
+      "instruction": "¡Perfecto! Agrégale dos orejas triangulares y con puntas suaves en la parte de arriba de la cabeza.",
+      "hint": "Haz las puntas un poco redondeadas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 180,175 C 170,140 210,140 215,175" },
+        { "shape": "path", "d": "M 320,175 C 330,140 290,140 285,175" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Cola Elegante",
+      "instruction": "¡No nos olvidemos de su cola! Dibuja una cola larga y elegante que se enrosque hacia arriba.",
+      "hint": "Una curva suave en forma de 'S'.",
+      "newGuides": [
+        { "shape": "path", "d": "M 285,300 C 340,300 340,220 290,230" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Patitas Delanteras",
+      "instruction": "¡Qué bien! Ahora, dibuja dos patitas delanteras en su cuerpo, como dos pequeñas 'U'.",
+      "hint": "Simples y cortas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 230,330 C 230,345 245,345 245,330" },
+        { "shape": "path", "d": "M 255,330 C 255,345 270,345 270,330" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Expresión Tierna",
+      "instruction": "¡Es hora de su carita! Dos puntitos para los ojos, una nariz chiquita y una boquita como una 'w'.",
+      "hint": "Mantén los rasgos de la cara juntos en el centro.",
+      "newGuides": [
+        { "shape": "path", "d": "M 230,215 a 5,5 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 270,215 a 5,5 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 250,225 L 247,230 L 253,230 Z" },
+        { "shape": "path", "d": "M 245,235 C 248,240 252,240 255,235" }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Bigotes Finales",
+      "instruction": "¡Ya casi! Solo faltan un par de bigotes a cada lado. ¡Felicidades, tu gatito es adorable!",
+      "hint": "Dos líneas a cada lado son suficientes.",
+      "newGuides": [
+        { "shape": "path", "d": "M 190,225 L 225,220" },
+        { "shape": "path", "d": "M 190,235 L 225,235" },
+        { "shape": "path", "d": "M 310,225 L 275,220" },
+        { "shape": "path", "d": "M 310,235 L 275,235" }
+      ]
+    }
+  ]
+}

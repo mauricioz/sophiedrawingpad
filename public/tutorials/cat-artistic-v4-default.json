@@ -1,0 +1,92 @@
+
+{
+  "version": "1.1",
+  "title": "Gato (Casi Perfecto)",
+  "locale": "es-AR",
+  "ageRange": "5-9",
+  "difficulty": 4,
+  "tags": ["animal", "cuerpo", "gato", "avanzado"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza Definitiva",
+      "instruction": "¡Vamos a dibujar el gato definitivo! Empecemos con su cabeza, grande y adorable, con forma de gota al revés.",
+      "hint": "Ya conoces esta forma, ¡hazla con confianza!",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C184.9,150 158.3,205.8 178.4,249.2 C198.5,292.6 301.5,292.6 321.6,249.2 C341.7,205.8 315.1,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cuerpo Integrado",
+      "instruction": "¡Perfecto! Ahora, su cuerpo. Lo dibujaremos fluyendo desde la cabeza, para que no haya líneas que se crucen. ¡Verás qué bien queda!",
+      "hint": "El cuerpo empieza desde los 'cachetes' de la cabeza.",
+      "newGuides": [
+        { "shape": "path", "d": "M210,255 C190,300 200,350 250,350 C300,350 310,300 290,255" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Orejas Realistas",
+      "instruction": "¡Ahora, las orejas! Recuerda, son curvas suaves con un pequeño detalle adentro para que se vean más realistas y tiernas.",
+      "hint": "Estas orejas le dan mucha personalidad.",
+      "newGuides": [
+        { "shape": "path", "d": "M214.3,165.7 C192.6,128.8 158.6,146.4 179.4,180.5" },
+        { "shape": "path", "d": "M208.7,163.1 C196,145.5 183.7,156.4 186.7,174.5" },
+        { "shape": "path", "d": "M285.7,165.7 C307.4,128.8 341.4,146.4 320.6,180.5" },
+        { "shape": "path", "d": "M291.3,163.1 C304,145.5 316.3,156.4 313.3,174.5" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Cola Natural",
+      "instruction": "¡Es el turno de la cola! La hemos alineado para que salga de su cuerpo de forma natural. Dibuja esta elegante curva en forma de 'S'.",
+      "hint": "La cola ahora fluye mejor con el cuerpo.",
+      "newGuides": [
+        { "shape": "path", "d": "M290,320 C360,320 370,250 320,240" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Patitas Firmes",
+      "instruction": "¡Faltan las patitas! Dibuja dos pequeños arcos en la parte de abajo. ¡Ya casi parece que puede caminar!",
+      "hint": "Asegúrate de que estén al mismo nivel.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,345 C230,360 245,360 245,345" },
+        { "shape": "path", "d": "M255,345 C255,360 270,360 270,345" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Expresión Curiosa",
+      "instruction": "¡Vamos a darle su expresión! Dos ojitos curiosos, una nariz pequeña y una boquita sonriente.",
+      "hint": "La cara es el corazón del dibujo.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M270,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M250,230 L247,235 L253,235Z" },
+        { "shape": "path", "d": "M245,240 C248,245 252,245 255,240" }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Bigotes Alineados",
+      "instruction": "¡El toque final! Hemos alineado los bigotes. Dibuja dos líneas a cada lado, saliendo de su hocico. ¡Felicidades, tu gatito es perfecto!",
+      "hint": "Los bigotes ahora salen desde cerca de la boca.",
+      "newGuides": [
+        { "shape": "path", "d": "M235,235 L200,230" },
+        { "shape": "path", "d": "M235,240 L200,240" },
+        { "shape": "path", "d": "M265,235 L300,230" },
+        { "shape": "path", "d": "M265,240 L300,240" }
+      ]
+    }
+  ]
+}

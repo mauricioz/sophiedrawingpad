@@ -1,0 +1,65 @@
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cara de Sorpresa",
+      "instruction": "¡Uy! ¿Qué vio nuestro gatito? Dibujemos una cabeza redonda para empezar.",
+      "hint": "Hazla bien grande para que la sorpresa sea mayor.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,130 C 180,130 150,180 150,250 C 150,320 180,370 250,370 C 320,370 350,320 350,250 C 350,180 320,130 250,130 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas Alertas",
+      "instruction": "¡Sus orejas están muy atentas! Dibujemos dos triángulos bien derechitos.",
+      "hint": "Asegúrate de que apunten bien hacia arriba.",
+      "newGuides": [
+        { "shape": "path", "d": "M 180,145 C 170,120 210,100 220,120 L 180,145 Z" },
+        { "shape": "path", "d": "M 320,145 C 330,120 290,100 280,120 L 320,145 Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos Abiertos",
+      "instruction": "Ahora, unos ojos bien grandes y redondos. ¡Está muy sorprendido!",
+      "hint": "Hazlos como dos círculos perfectos.",
+      "newGuides": [
+        { "shape": "path", "d": "M 225,210 a 20,20 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M 295,210 a 20,20 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Boca de '¡Oh!'",
+      "instruction": "Su boquita también está sorprendida. Dibujemos un pequeño óvalo, como si dijera '¡Oh!'",
+      "hint": "No te olvides de su pequeña nariz triangular arriba.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,265 C 245,260 255,260 250,265" },
+        { "shape": "path", "d": "M 250,280 a 15,10 0 1,1 0.01,0" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Bigotes Tiesos",
+      "instruction": "¡Y sus bigotes están tiesos por la sorpresa! Vamos a hacerlos bien rectos.",
+      "hint": "Dibuja líneas rectas que salgan de los lados de su cara.",
+      "newGuides": [
+        { "shape": "path", "d": "M 180,265 L 220,260" },
+        { "shape": "path", "d": "M 175,275 L 220,275" },
+        { "shape": "path", "d": "M 180,285 L 220,290" },
+        { "shape": "path", "d": "M 320,265 L 280,260" },
+        { "shape": "path", "d": "M 325,275 L 280,275" },
+        { "shape": "path", "d": "M 320,285 L 280,290" }
+      ]
+    }
+  ]
+}

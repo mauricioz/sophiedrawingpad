@@ -1,0 +1,73 @@
+
+{
+  "version": "1.1",
+  "title": "Un Gatito Curioso",
+  "locale": "es-AR",
+  "ageRange": "4-8",
+  "difficulty": 2,
+  "tags": ["animal", "cara", "clásico"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza",
+      "instruction": "¡Hola! Primero, dibujemos una cabeza redondita y simpática para nuestro gatito.",
+      "hint": "Intenta que sea grande y ocupe el centro del lienzo.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,130 C 180,130 150,180 150,250 C 150,320 180,370 250,370 C 320,370 350,320 350,250 C 350,180 320,130 250,130 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Orejas",
+      "instruction": "¡Genial! Ahora, agreguemos dos orejas puntiagudas para que pueda escuchar todo.",
+      "hint": "Parecen dos pequeños triángulos sobre la cabeza.",
+      "newGuides": [
+        { "shape": "path", "d": "M 180,145 C 170,120 210,100 220,120 L 180,145 Z" },
+        { "shape": "path", "d": "M 320,145 C 330,120 290,100 280,120 L 320,145 Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Ojos",
+      "instruction": "¡Perfecto! Vamos a ponerle dos ojitos curiosos para que mire el mundo.",
+      "hint": "Son como dos almendras pequeñas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 215,220 C 225,210 235,220 225,230 C 215,240 205,230 215,220 Z" },
+        { "shape": "path", "d": "M 285,220 C 295,210 305,220 295,230 C 285,240 275,230 285,220 Z" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Nariz y Boca",
+      "instruction": "¡Muy bien! Ahora una pequeña nariz y una boquita. ¿Está sonriendo?",
+      "hint": "La nariz es un triángulo y la boca son dos curvas, como una 'w' suave.",
+      "newGuides": [
+        { "shape": "path", "d": "M 250,260 C 245,255 255,255 250,260 L 250,275" },
+        { "shape": "path", "d": "M 250,275 C 240,285 230,280 230,270" },
+        { "shape": "path", "d": "M 250,275 C 260,285 270,280 270,270" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Bigotes",
+      "instruction": "¡No nos olvidemos de los bigotes! Unos poquitos a cada lado.",
+      "hint": "Dibuja tres líneas rectas a cada lado de su carita.",
+      "newGuides": [
+        { "shape": "path", "d": "M 180,260 C 220,265 180,260 180,260" },
+        { "shape": "path", "d": "M 175,275 C 220,275 175,275 175,275" },
+        { "shape": "path", "d": "M 180,290 C 220,285 180,290 180,290" },
+        { "shape": "path", "d": "M 320,260 C 280,265 320,260 320,260" },
+        { "shape": "path", "d": "M 325,275 C 280,275 325,275 325,275" },
+        { "shape": "path", "d": "M 320,290 C 280,285 320,290 320,290" }
+      ]
+    }
+  ]
+}

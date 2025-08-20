@@ -1,0 +1,92 @@
+
+{
+  "version": "1.1",
+  "title": "Gato (Refinado)",
+  "locale": "es-AR",
+  "ageRange": "5-9",
+  "difficulty": 3,
+  "tags": ["animal", "cuerpo", "gato", "refinado"],
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Cabeza de Gota",
+      "instruction": "¡Vamos a dibujar el gato más tierno! Empecemos con una cabeza grande y con forma de gota invertida. ¡Así será súper adorable!",
+      "hint": "Imagina un globo de agua a punto de caer.",
+      "newGuides": [
+        { "shape": "path", "d": "M250,150 C184.9,150 158.3,205.8 178.4,249.2 C198.5,292.6 301.5,292.6 321.6,249.2 C341.7,205.8 315.1,150 250,150Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Cuerpo Compacto",
+      "instruction": "¡Genial! Ahora, un cuerpo gordito y compacto justo debajo. Esto hará que se vea muy tierno y pequeño.",
+      "hint": "Como un pequeño frijol debajo de la cabeza.",
+      "newGuides": [
+        { "shape": "path", "d": "M250,260 C215,260 200,350 250,350 C300,350 285,260 250,260Z" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Orejas Curvas",
+      "instruction": "¡Aquí está el secreto! Dibujemos sus orejas. No son triángulos, sino curvas suaves, con una pequeña línea adentro para darles profundidad.",
+      "hint": "La línea interior hace que parezcan más reales.",
+      "newGuides": [
+        { "shape": "path", "d": "M214.3,165.7 C192.6,128.8 158.6,146.4 179.4,180.5" },
+        { "shape": "path", "d": "M208.7,163.1 C196,145.5 183.7,156.4 186.7,174.5" },
+        { "shape": "path", "d": "M285.7,165.7 C307.4,128.8 341.4,146.4 320.6,180.5" },
+        { "shape": "path", "d": "M291.3,163.1 C304,145.5 316.3,156.4 313.3,174.5" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Cola en S",
+      "instruction": "¡Qué bien se ve! Ahora, una cola elegante. Dibuja una curva larga en forma de 'S' que salga de su cuerpo.",
+      "hint": "Hazla delgada y con una punta suave.",
+      "newGuides": [
+        { "shape": "path", "d": "M295,295 C370,295 365,195 290,230" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Patitas Delanteras",
+      "instruction": "¡Casi está! Dibujemos dos pequeñas patitas delanteras en la parte de abajo de su cuerpo.",
+      "hint": "Solo dos pequeños arcos son suficientes.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,345 C230,360 245,360 245,345" },
+        { "shape": "path", "d": "M255,345 C255,360 270,360 270,345" }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Carita Viva",
+      "instruction": "¡Vamos a darle vida! Dibuja dos ojitos redondos, una nariz como un triangulito y una boquita sonriente.",
+      "hint": "Una cara pequeña en una cabeza grande lo hace más tierno.",
+      "newGuides": [
+        { "shape": "path", "d": "M230,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M270,220 a 6,6 0 1,1 -0.01,0" },
+        { "shape": "path", "d": "M250,230 L247,235 L253,235Z" },
+        { "shape": "path", "d": "M245,240 C248,245 252,245 255,240" }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Toque Final",
+      "instruction": "¡El toque final! Un par de bigotes a cada lado. ¡Felicidades, has dibujado un gato verdaderamente adorable!",
+      "hint": "¡No te olvides de los bigotes!",
+      "newGuides": [
+        { "shape": "path", "d": "M190,230 L225,225" },
+        { "shape": "path", "d": "M190,240 L225,240" },
+        { "shape": "path", "d": "M310,230 L275,225" },
+        { "shape": "path", "d": "M310,240 L275,240" }
+      ]
+    }
+  ]
+}

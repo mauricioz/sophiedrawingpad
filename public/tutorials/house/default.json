@@ -1,0 +1,61 @@
+{
+  "canvas": { "width": 500, "height": 500, "origin": "center" },
+  "style": {
+    "stroke": "#222222",
+    "fill": "none",
+    "lineWidth": 3,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "Las Paredes",
+      "instruction": "¡Vamos a construir una casa! Primero, dibuja un cuadrado grande para las paredes.",
+      "hint": "Intenta que las líneas queden derechas.",
+      "newGuides": [
+        { "shape": "path", "d": "M 100,250 L 400,250 L 400,450 L 100,450 Z" }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "El Techo",
+      "instruction": "¡Genial! Ahora, un triángulo grande encima para el techo.",
+      "hint": "La punta del triángulo debe estar justo en el medio del cuadrado.",
+      "newGuides": [
+        { "shape": "path", "d": "M 80,250 L 250,100 L 420,250" }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "La Puerta",
+      "instruction": "¡Toda casa necesita una puerta para entrar! Dibuja un rectángulo en el medio.",
+      "hint": "No te olvides del picaporte, ¡es un circulito!",
+      "newGuides": [
+        { "shape": "path", "d": "M 220,350 L 280,350 L 280,455 L 220,455 Z" },
+        { "shape": "path", "d": "M 270,405 a 5,5 0 1,1 -0.01,0" }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Las Ventanas",
+      "instruction": "Y también ventanas para mirar afuera. Dibuja dos cuadrados, uno a cada lado de la puerta.",
+      "hint": "Una cruz en el medio las hará parecer más reales.",
+      "newGuides": [
+        { "shape": "path", "d": "M 130,300 L 190,300 L 190,360 L 130,360 Z" },
+        { "shape": "path", "d": "M 160,300 L 160,360 M 130,330 L 190,330" },
+        { "shape": "path", "d": "M 310,300 L 370,300 L 370,360 L 310,360 Z" },
+        { "shape": "path", "d": "M 340,300 L 340,360 M 310,330 L 370,330" }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "La Chimenea",
+      "instruction": "¡Casi lista! Agreguemos una pequeña chimenea en el techo para que esté calentita.",
+      "hint": "Es como un pequeño rectángulo sobre el techo.",
+      "newGuides": [
+        { "shape": "path", "d": "M 320,150 L 320,110 L 350,110 L 350,165" }
+      ]
+    }
+  ]
+}
