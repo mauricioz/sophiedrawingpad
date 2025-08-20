@@ -71,17 +71,23 @@ export const useDrawing = () => {
     if (!canvas) return null;
 
     const rect = canvas.getBoundingClientRect();
-    let x, y;
-
+    
+    let clientX, clientY;
     if ('touches' in event) {
         const touch = event.touches[0];
         if (!touch) return null;
-        x = touch.clientX - rect.left;
-        y = touch.clientY - rect.top;
+        clientX = touch.clientX;
+        clientY = touch.clientY;
     } else {
-        x = event.clientX - rect.left;
-        y = event.clientY - rect.top;
+        clientX = event.clientX;
+        clientY = event.clientY;
     }
+    
+    const scaleX = canvas.width / rect.width;
+    const scaleY = canvas.height / rect.height;
+
+    const x = (clientX - rect.left) * scaleX;
+    const y = (clientY - rect.top) * scaleY;
 
     return { x, y };
   };
