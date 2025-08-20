@@ -157,23 +157,21 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen font-sans flex flex-col items-center p-4 bg-gradient-to-br from-blue-100 to-purple-100">
-      <header className="w-full max-w-6xl mx-auto mb-4 flex justify-between items-start p-2">
-        <div className="text-left">
+      <header className="w-full max-w-6xl mx-auto mb-4 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4 p-4 sm:p-2">
+        <div className="text-center sm:text-left">
           <h1 className="text-3xl md:text-5xl font-bold text-purple-600 drop-shadow-md">
             El Rincón de Dibujo de Sophie
           </h1>
           <p className="text-gray-600 mt-2 text-sm md:text-base">¡Aprendamos a dibujar juntos!</p>
         </div>
-        <div className="flex flex-col items-end gap-2">
-            <div className="flex-shrink-0">
-                <Auth 
-                    user={user} 
-                    onLogin={handleLogin} 
-                    onLogout={handleLogout} 
-                    googleClientId={googleClientId}
-                    onConfigure={() => setIsClientIdModalOpen(true)}
-                />
-            </div>
+        <div className="flex-shrink-0">
+          <Auth 
+              user={user} 
+              onLogin={handleLogin} 
+              onLogout={handleLogout} 
+              googleClientId={googleClientId}
+              onConfigure={() => setIsClientIdModalOpen(true)}
+          />
         </div>
       </header>
       

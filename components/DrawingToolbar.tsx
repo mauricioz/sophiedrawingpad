@@ -25,9 +25,9 @@ export const DrawingToolbar: React.FC<DrawingToolbarProps> = ({
   clearCanvas,
 }) => {
   return (
-    <div className="w-full max-w-[500px] bg-gray-100 p-2 rounded-xl shadow-md flex justify-between items-center">
+    <div className="w-full max-w-[500px] bg-gray-100 p-3 rounded-xl shadow-md flex flex-col sm:flex-row gap-4 sm:gap-2 justify-center sm:justify-between items-center">
       {/* Color Palette */}
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap justify-center items-center gap-2">
         {colors.map(color => (
           <button
             key={color}
@@ -41,29 +41,32 @@ export const DrawingToolbar: React.FC<DrawingToolbarProps> = ({
         ))}
       </div>
 
-      {/* Brush Size */}
-      <div className="flex items-center gap-2 bg-white p-1 rounded-lg">
-        {sizes.map(size => (
-          <button
-            key={size.name}
-            onClick={() => setBrushSize(size.value)}
-            className={`w-8 h-8 rounded-md flex items-center justify-center font-bold text-gray-600 transition-colors ${
-              brushSize === size.value ? 'bg-purple-200 text-purple-700' : 'hover:bg-gray-200'
-            }`}
-          >
-            {size.name}
-          </button>
-        ))}
+      {/* Controls Group */}
+      <div className="flex items-center gap-2">
+        {/* Brush Size */}
+        <div className="flex items-center gap-2 bg-white p-1 rounded-lg">
+          {sizes.map(size => (
+            <button
+              key={size.name}
+              onClick={() => setBrushSize(size.value)}
+              className={`w-8 h-8 rounded-md flex items-center justify-center font-bold text-gray-600 transition-colors ${
+                brushSize === size.value ? 'bg-purple-200 text-purple-700' : 'hover:bg-gray-200'
+              }`}
+            >
+              {size.name}
+            </button>
+          ))}
+        </div>
+        
+        {/* Clear Button */}
+        <button 
+          onClick={clearCanvas}
+          className="p-2 bg-red-500 text-white rounded-lg shadow-sm hover:bg-red-600 transition-colors"
+          aria-label="Borrar todo"
+        >
+          <TrashIcon className="w-6 h-6" />
+        </button>
       </div>
-      
-      {/* Clear Button */}
-      <button 
-        onClick={clearCanvas}
-        className="p-2 bg-red-500 text-white rounded-lg shadow-sm hover:bg-red-600 transition-colors"
-        aria-label="Borrar todo"
-      >
-        <TrashIcon className="w-6 h-6" />
-      </button>
     </div>
   );
 };
